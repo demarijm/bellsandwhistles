@@ -1,9 +1,9 @@
 
 use clap::Parser;
 #[derive(Parser)]
-#[command(name = "MyApp")]
-#[command(author = "Kevin K. <kbknapp@gmail.com>")]
-#[command(version = "1.0")]
+#[command(name = "clap-test")]
+#[command(author = "Demari Miller <demarijmiller@gmail.com>")]
+#[command(version = "0.01")]
 #[command(about = "Does awesome things", long_about = None)]
 
 struct Cli {
